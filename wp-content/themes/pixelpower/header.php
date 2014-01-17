@@ -44,10 +44,11 @@
 				?>
 			
 				<hgroup class="<?php echo $logo_columns; ?> columns">				
-					<h1 id="logo"><?php echo cudazi_get_logo(); ?></h1>
-					<?php if ( ! cudazi_get_option( 'disable_tagline', false ) ) { ?>
+					<h1 id="logo"><?php #echo cudazi_get_logo(); ?></h1>
+					<img class="mainlogo" src="logo.png">
+					<?/*php if ( ! cudazi_get_option( 'disable_tagline', false ) ) { ?>
 					<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
-					<?php } ?>
+					<?php } */?>
 				</hgroup>		
 				<nav class="<?php echo $menu_columns; ?> columns" id="navigation" role="navigation">
 					<?php wp_nav_menu( array( 'menu_class' => 'sf-menu clearfix', 'theme_location' => 'primary', 'fallback_cb' => 'cudazi_menu_fallback' ) ); ?>						
