@@ -48,12 +48,27 @@
 		border-collapse: collapse;
 		border-spacing: 0; }
 
+@font-face
+{
+    font-family: OpenSans;
+    src: url(../font/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family: Tahoma;
+    src: url(../font/Tahoma.ttf);
+}
+@font-face
+{
+    font-family: Roboto;
+    src: url(../font/Roboto-Regular.ttf);
+}
 
 /* #Basic Styles
 ================================================== */
 	body {
 		background: #fff;
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		/* font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+		font: 100%/1.625 open_sansregular,HelveticaNeue,Helvetica,Arial,sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;

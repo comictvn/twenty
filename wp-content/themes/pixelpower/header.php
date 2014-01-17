@@ -11,10 +11,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	
 	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.gif" />
-	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/apple-touch-icon.png" />
-	
+	<!--<link rel="apple-touch-icon" href="<?php #echo get_template_directory_uri(); ?>/apple-touch-icon.png" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+	<link rel="pingback" href="<?php #bloginfo( 'pingback_url' ); ?>" />-->
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -43,14 +42,14 @@
 					}					
 				?>
 			
-				<hgroup class="<?php echo $logo_columns; ?> columns">				
-					<h1 id="logo"><?php #echo cudazi_get_logo(); ?></h1>
-					<img class="mainlogo" src="logo.png">
-					<?/*php if ( ! cudazi_get_option( 'disable_tagline', false ) ) { ?>
-					<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
-					<?php } */?>
+				<hgroup class="<?php #echo $logo_columns; ?> columns">				
+					<!--<h1 id="logo"><?php #echo cudazi_get_logo(); ?></h1>-->
+					<a title="<?php echo get_bloginfo('name'); ?>" href="<?php echo site_url(); ?>"><img class="mainlogo" alt="<?php echo get_bloginfo('name'); ?>" src="<?php echo site_url(); ?>/logo.png"></a>
+					<?php# if ( ! cudazi_get_option( 'disable_tagline', false ) ) { ?>
+					<!--<h2 id="site-description"><?php #bloginfo( 'description' ); ?></h2>-->
+					<?php #} ?>
 				</hgroup>		
-				<nav class="<?php echo $menu_columns; ?> columns" id="navigation" role="navigation">
+				<nav class="<?php #echo $menu_columns; ?> columns" id="navigation" role="navigation">
 					<?php wp_nav_menu( array( 'menu_class' => 'sf-menu clearfix', 'theme_location' => 'primary', 'fallback_cb' => 'cudazi_menu_fallback' ) ); ?>						
 					<?php echo cudazi_alternate_menu( array( 'menu_name' => 'primary', 'display' => 'select' ) ); ?>
 				</nav>
