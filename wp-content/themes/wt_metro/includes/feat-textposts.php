@@ -19,8 +19,22 @@
 
 <div id="feat-textposts">
 	
-	<header class="cat-header1">	
-		<h6> <?php _e('Post of the day', 'wellthemes'); ?></h6>				
+	<!--<header class="cat-header1">	
+		<h6> <?php# _e('Post of the day', 'wellthemes'); ?></h6>				
+	</header>-->
+	<header class="cat-header">	
+		<?php
+			if ($cat_id == 0 ) {	?>								
+				<h3> <?php _e('Latest Posts', 'wellthemes'); ?></h3>	
+				<a class="rss" href="<?php bloginfo('rss2_url'); ?>" >RSS</a>
+			<?php					
+			} else {													
+				?>
+				<h3><a href="<?php echo esc_url( $cat_url ); ?>" ><?php echo $cat_name; ?></a></h3>	
+				<a class="rss" href="<?php home_url(); ?>?cat=<?php echo $cat_id; ?>&feed=rss2" >RSS</a>
+				<?php
+			}						
+		?>
 	</header>
 		
 	<div class="main-post">

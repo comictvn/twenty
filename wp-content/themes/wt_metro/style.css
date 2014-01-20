@@ -168,7 +168,7 @@ a:hover{
 #header{
 	margin: 0px auto; 
 	background: #ffffff; 
-	margin: 30px 0;
+	margin: 20px 0;
 	position: relative;
 }
 
@@ -872,8 +872,9 @@ a:hover{
 
 .cat-header{	
 	background: #5FB435;
-	margin-bottom: 30px;
-	padding: 6px 10px;
+	margin-bottom: 15px;
+	/* padding: 6px 10px; */
+	padding: 8px 12px;
 }
 
 .cat-header a.rss{
