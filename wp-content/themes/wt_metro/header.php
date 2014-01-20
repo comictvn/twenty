@@ -33,9 +33,9 @@
 	 * Print the <title> tag based on what is being viewed.
 	 */
 	global $page, $paged;
-
+	
 	wp_title( '|', true, 'right' );
-
+/*
 	// Add the blog name.
 	bloginfo( 'name' );
 
@@ -47,7 +47,7 @@
 	// Add a page number if necessary:
 	if ( $paged >= 2 || $page >= 2 )
 		echo ' | ' . sprintf( __( 'Page %s', 'wellthemes' ), max( $paged, $page ) );
-
+*/
 	?>
 </title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
