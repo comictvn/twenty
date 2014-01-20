@@ -2572,8 +2572,12 @@ ul.sp-list li{
 #footer .footer-widgets{
 	margin-bottom: 20px;
 	padding-bottom: 20px;
-	border-bottom: 1px solid #EEEEEE;
 	overflow: hidden;
+}
+
+#footer .footer-info {
+	border-top: 1px solid #EEEEEE;
+	padding-top: 10px;
 }
 
 #footer .widget{
