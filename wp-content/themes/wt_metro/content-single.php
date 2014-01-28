@@ -10,12 +10,12 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php if ( wt_get_option( 'wt_show_post_nav' ) == 1 ) { ?>
-			<div class="post-nav">
-				<?php previous_post_link( '<div class="prev"><div class="wrap">%link</div></div>', '%title' ); ?>
-				<?php next_post_link( '<div class="next"><div class="wrap">%link</div></div>', '%title' ); ?>
-			</div>
-		<?php } ?>
+	<?php# if ( wt_get_option( 'wt_show_post_nav' ) == 1 ) { ?>
+			<!--<div class="post-nav">
+				<?php# previous_post_link( '<div class="prev"><div class="wrap">%link</div></div>', '%title' ); ?>
+				<?php# next_post_link( '<div class="next"><div class="wrap">%link</div></div>', '%title' ); ?>
+			</div>-->
+		<?php# } ?>
 	<header class="entry-header">
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 		<div class="entry-meta">			

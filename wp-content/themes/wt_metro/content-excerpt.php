@@ -45,11 +45,12 @@
 			<?php 
 				//display only first 200 characters in the slide description.								
 				$excerpt = get_the_excerpt();																
-				echo mb_substr($excerpt,0, 199);									
-				if (strlen($excerpt) > 200){ 
+				echo mb_substr($excerpt,0, 219);									
+				if (strlen($excerpt) > 220){ 
 					echo '...'; 
 				} 
 			?>
+			<p><a class="readmore" href="<?php the_permalink() ?>">Read More</a></p>
 		</div><!-- /entry-content -->
 
 		<footer class="entry-footer">
