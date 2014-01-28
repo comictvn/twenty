@@ -1850,7 +1850,7 @@ ul.sp-list li{
 #searchform .searchfield{
 	font-size: 14px !important;
 	padding: 13px 10px 13px;
-	width: 230px;
+	width: 231px;
 	height: 20px;
 	border: 1px solid #EEEEEE;
 	border-right: none;
@@ -2887,7 +2887,7 @@ ul.sp-list li{
 	}
 	
 	#header #searchform .searchfield{
-		width: 380px;
+		width: 391px;
 	}
 	
 	#content{
@@ -3046,7 +3046,7 @@ ul.sp-list li{
 	}	
 	
 	/*-- widgets --*/
-	#footer .footer-widgets,
+	/* #footer .footer-widgets,
 	.sidebar{
 		width: 460px;
 		-moz-column-count: 2;
@@ -3055,12 +3055,21 @@ ul.sp-list li{
 		-webkit-column-gap: 10px;
 		column-count: 2;
 		column-gap: 10px;  
+	} */
+	
+	#footer .footer-widgets,
+	.sidebar{
+		width: 460px;
 	}
 	
-	#footer .widget,
+	.widget_popular_posts .post-right {
+		width: 414px;
+	}
+	
+	/* #footer .widget,
 	.sidebar .widget{
 		max-width: 220px;
-	}
+	} */
 	
 	.widget_adsingle,
 	.widget_tile_posts,
@@ -3115,7 +3124,7 @@ ul.sp-list li{
 	}
 	
 	.widget_popular_posts .post-number{
-		display: none;
+		/* display: none; */
 	}
 	
 	.widget_search #searchform .searchfield {
