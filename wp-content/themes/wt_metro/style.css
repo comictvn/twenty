@@ -121,9 +121,9 @@ a:hover{
 
 #content {
 	/* width: 640px; */
-	width: 790px;
+	width: 800px;
 	float: left;
-	margin-right: 30px;	
+	margin-right: 20px;	
 	overflow: hidden;
 }
 
@@ -163,6 +163,8 @@ a:hover{
 
 .wp-post-image{
 	display: block;
+	width: 100%;
+	margin-bottom: 10px;
 }
 
 .lb-image{ 
@@ -2620,7 +2622,7 @@ ul.sp-list li{
 	}
 	
 	#content {
-		width: 640px;
+		width: 650px;
 	}
 
 	.sidebar {
