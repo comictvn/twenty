@@ -2707,10 +2707,6 @@ ul.sp-list li{
 		width: 640px;
 	}
 
-	.sidebar {
-		width: 350px;
-	}
-
 	.onesidebar-page {
 		width: 640px !important;
 	}
@@ -2784,15 +2780,23 @@ ul.sp-list li{
 		display: none;
 	}
 	
-	.sidebar{
+	/* .sidebar{
 		width: 640px;
 		-moz-column-count: 2;
 		-moz-column-gap: 20px;
 		-webkit-column-count: 2;
 		-webkit-column-gap: 20px;
 		column-count: 2;
-		column-gap: 20px;  
+		column-gap: 20px;
+	}	 */
+	
+	.sidebar{
+		width: 640px;
 	}	
+	
+	.widget_popular_posts .post-right{
+		width: 594px;
+	}
 	
 	.widget_carousel,
 	.widget_facebook,
