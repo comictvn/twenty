@@ -852,7 +852,7 @@ a:hover{
 .post .entry-meta,
 .page .entry-meta{
 	/* margin-bottom: 15px; */
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 .entry-meta a{	color: #999999;}
 .entry-meta .comments{
