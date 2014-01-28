@@ -119,8 +119,8 @@ a:hover{
 }
 
 #content {
-	/* width: 640px;			 */
-	width: 860px;	
+	width: 640px;
+	/* width: 860px;	 */
 	float: left;
 	margin-right: 30px;	
 	overflow: hidden;
