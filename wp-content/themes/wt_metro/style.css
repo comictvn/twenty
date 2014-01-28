@@ -109,7 +109,8 @@ a:hover{
 }
 
 #container{
-	width: 1240px; 
+	/* width: 1240px;  */
+	width: 1170px; 
 	margin: 0 auto;	
 	overflow: hidden;
 }
@@ -119,8 +120,8 @@ a:hover{
 }
 
 #content {
-	width: 640px;
-	/* width: 860px;	 */
+	/* width: 640px; */
+	width: 790px;
 	float: left;
 	margin-right: 30px;	
 	overflow: hidden;
@@ -657,7 +658,7 @@ a:hover{
 /*-- Featured Posts --*/
 #feat-posts{
 	overflow: hidden;
-	margin-bottom: 20px;	
+	/* margin-bottom: 20px;	 */
 }
 
 #feat-posts .cat-header {
@@ -848,7 +849,8 @@ a:hover{
 
 .post .entry-meta,
 .page .entry-meta{
-	margin-bottom: 15px;
+	/* margin-bottom: 15px; */
+	margin-bottom: 5px;
 }
 .entry-meta a{	color: #999999;}
 .entry-meta .comments{
@@ -2616,6 +2618,18 @@ ul.sp-list li{
 	#container{
 		width: 940px;
 	}
+	
+	#content {
+		width: 640px;
+	}
+
+	.sidebar {
+	  width: 270px;
+	}
+	
+	.widget_popular_posts .post-right {
+	  width: 224px;
+	}
 
 	#left-sidebar{
 		margin-right: 0;
@@ -2687,6 +2701,14 @@ ul.sp-list li{
 		width: 640px;
 	}	
 	
+	#content {
+		width: 640px;
+	}
+
+	.sidebar {
+		width: 350px;
+	}
+
 	.onesidebar-page {
 		width: 640px !important;
 	}

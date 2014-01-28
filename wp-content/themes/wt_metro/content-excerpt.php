@@ -33,10 +33,10 @@
 			<div class="entry-meta">
 				<span class="date"><?php the_time('F j, Y'); ?></span>
 				<span class="author"><?php the_author_posts_link(); ?></span>
-				<span class="category"><?php the_category(', ' ); ?></span>
-					<?php if ( comments_open() ) : ?>
-						<span class="comments"><?php comments_popup_link( __('no comments', 'wellthemes'), __( '1 comment', 'wellthemes'), __('% comments', 'wellthemes')); ?></span>		
-					<?php endif; ?>
+				<!--<span class="category"><?php# the_category(', ' ); ?></span>
+					<?php# if ( comments_open() ) : ?>
+						<span class="comments"><?php# comments_popup_link( __('no comments', 'wellthemes'), __( '1 comment', 'wellthemes'), __('% comments', 'wellthemes')); ?></span>		
+					<?php# endif; ?>-->
 			</div>	
 		
 		</header><!-- /entry-header -->
@@ -45,12 +45,12 @@
 			<?php 
 				//display only first 200 characters in the slide description.								
 				$excerpt = get_the_excerpt();																
-				echo mb_substr($excerpt,0, 219);									
-				if (strlen($excerpt) > 220){ 
+				echo mb_substr($excerpt,0, 159);									
+				if (strlen($excerpt) > 160){ 
 					echo '...'; 
 				} 
 			?>
-			<p><a class="readmore" href="<?php the_permalink() ?>">Read More</a></p>
+			<a class="readmore" href="<?php the_permalink() ?>">Read More</a>
 		</div><!-- /entry-content -->
 
 		<footer class="entry-footer">
