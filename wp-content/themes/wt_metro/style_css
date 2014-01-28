@@ -116,8 +116,7 @@ a:hover{
 }
 
 #content {
-	/* width: 640px;			 */
-	width: 860px;	
+	width: 640px;			
 	float: left;
 	margin-right: 30px;	
 	overflow: hidden;
@@ -125,7 +124,7 @@ a:hover{
 
 #left-sidebar{
 	float: left;
-	/* margin-right: 30px;	 */
+	margin-right: 30px;	
 	overflow: hidden;
 }
 
@@ -135,8 +134,7 @@ a:hover{
 }
 
 .sidebar{
-	/* width: 270px; */
-	width: 350px;
+	width: 270px;
 }
 
 .onesidebar-page{
@@ -655,7 +653,7 @@ a:hover{
 }
 
 #feat-posts .cat-header {
-  /* background: #5FB435; */
+  background: #5FB435;
 }
 
 #feat-posts .left{
@@ -2072,8 +2070,7 @@ ul.sp-list li{
 
 .widget_popular_posts .post-right{
 	float: left;
-	/* width: 222px; */
-	width: 304px;
+	width: 222px;
 }
 
 .widget_popular_posts .post-right h4{
