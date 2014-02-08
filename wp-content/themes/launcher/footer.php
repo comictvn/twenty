@@ -1,9 +1,9 @@
 <div id="footer_area" class="footer1">
-	<div class="page">
+	<!--<div class="page">
 		<div id="my_tweets">
 			<div id="tweet"></div>
 		</div>
-	</div>
+	</div>-->
 </div>
 <div id="footer_area" class="footer2">
 	<div class="page">

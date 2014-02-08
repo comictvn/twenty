@@ -8,7 +8,11 @@
 			<a href="<?php echo get_option('lnc_facebook'); ?>" class="facebook">Facebook</a>
         </div>
     <div id="block">
-      <div id="block-text"><h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+      <div id="block-text">
+		<!--<h1><a href="<?php# echo home_url(); ?>"><?php# bloginfo('name'); ?></a></h1>-->
+		<a href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
+			<img src="<?php echo get_template_directory_uri().'/images/logo.png' ?>" alt="<?php bloginfo( 'name' ); ?>" />
+		</a>
         <p>
           <span class="text"><?php $content = get_option('lnc_text_content');
                   $replace[1] = '/
