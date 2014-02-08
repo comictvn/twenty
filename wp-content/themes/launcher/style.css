@@ -118,6 +118,7 @@ p {
 	font-size: 30px;
 	padding-top: 20px;
 	text-transform: none;
+	padding-left: 13px;
 }
 .countdown {
 	display: block;

@@ -23,10 +23,10 @@
                   ?>
           </span>
         </p>
-	<?php if (get_option('lnc_form') == 'false') { ?>
-	<?php } else { ?>
-	<form style="" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=<?php echo get_option('lnc_rss'); ?>', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><input type="text" style="width:240px" name="email"/><input type="hidden" value="<?php echo get_option('lnc_rss'); ?>" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" /></form>
-	<?php } ?>
+	<?php# if (get_option('lnc_form') == 'false') { ?>
+	<?php# } else { ?>
+	<!--<form style="" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=<?php echo get_option('lnc_rss'); ?>', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><input type="text" style="width:240px" name="email"/><input type="hidden" value="<?php echo get_option('lnc_rss'); ?>" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" /></form>-->
+	<?php# } ?>
 	<?php if (get_option('lnc_count') == 'false') { ?>
 	<?php } else { ?>
      <?php include "Countdown.html";?>
