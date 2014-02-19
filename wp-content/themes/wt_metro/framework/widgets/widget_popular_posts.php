@@ -72,13 +72,13 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 			<div class="post-right">
 				<h4>
 					<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'wellthemes'), the_title_attribute('echo=0')); ?>">
-						<?php 
+						<?php echo the_title('','',FALSE);
 							//display only first 50 characters in the title.	
-							$short_title = mb_substr(the_title('','',FALSE),0, 50);
+							/* $short_title = mb_substr(the_title('','',FALSE),0, 50);
 							echo $short_title; 
 							if (strlen($short_title) > 49){ 
 								echo '...'; 
-							} 
+							}  */
 						?>	
 					</a>
 				</h4>

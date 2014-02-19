@@ -18,13 +18,13 @@
 		<header class="entry-header">
 			<h3 class="entry-title">				
 				<a href="<?php the_permalink() ?>">
-					<?php 
+					<?php echo the_title('','',FALSE);
 						//display only first 70 characters in the title.	
-						$short_title = mb_substr(the_title('','',FALSE),0, 70);
+						/* $short_title = mb_substr(the_title('','',FALSE),0, 70);
 						echo $short_title; 
 						if (strlen($short_title) > 69){ 
 							echo '...'; 
-						} 
+						}  */
 					?>	
 				</a>
 									
@@ -32,8 +32,8 @@
 		
 			<div class="entry-meta">
 				<span class="date"><?php the_time('F j, Y'); ?></span>
-				<span class="author"><?php the_author_posts_link(); ?></span>
-				<!--<span class="category"><?php# the_category(', ' ); ?></span>
+				<!--<span class="author"><?php# the_author_posts_link(); ?></span>
+				<span class="category"><?php# the_category(', ' ); ?></span>
 					<?php# if ( comments_open() ) : ?>
 						<span class="comments"><?php# comments_popup_link( __('no comments', 'wellthemes'), __( '1 comment', 'wellthemes'), __('% comments', 'wellthemes')); ?></span>		
 					<?php# endif; ?>-->

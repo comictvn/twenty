@@ -3368,3 +3368,7 @@ ul.sp-list li{
 .readmore:hover {
 	color: #F57F26 !important
 }
+
+.entry-title {
+  font-size: 18px;
+}
