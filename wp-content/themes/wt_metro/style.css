@@ -2225,11 +2225,23 @@ ul.sp-list li{
 
 #wp-calendar caption {    
     text-align: center;
-	background: #3399FF;
+	/* background: #3399FF; */
+	/*Firefox*/background: -moz-linear-gradient(center top , #004A63, #053C50) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    /*Chrome*/background: -webkit-gradient(linear, left top, left bottom, from(#004A63), to(#053C50));
 	font-size: 16px;
 	font-weight: 600;
 	color: #FFFFFF;
 	padding: 8px 0;
+}
+
+#wp-calendar td a {
+	/* color: #F57F26; */
+	color: #3399FF;
+}
+
+#wp-calendar td a:hover {
+	color: #F57F26;
+	/* color: #3399FF; */
 }
 
 /*-- Polls widget --*/
