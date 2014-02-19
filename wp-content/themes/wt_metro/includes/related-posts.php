@@ -43,13 +43,13 @@ if($args){
 			<li>
 				<a href="<?php the_permalink() ?>"><?php the_post_thumbnail('wt-medium-thumb', array('title' => ''.get_the_title().'' )); ?></a>
 				<h4><a href="<?php the_permalink() ?>">
-						<?php 
+						<?php echo the_title('','',FALSE);
 							//display only first 40 characters in the title.	
-							$short_title = mb_substr(the_title('','',FALSE),0, 40);
+							/* $short_title = mb_substr(the_title('','',FALSE),0, 40);
 							echo $short_title; 
 							if (strlen($short_title) > 29){ 
 								echo '...'; 
-							} 
+							}  */
 						?>	
 				</a>
 				</h4>

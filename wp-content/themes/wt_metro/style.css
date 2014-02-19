@@ -1389,7 +1389,7 @@ a:hover{
 
 #content .related-posts .date{
 	color: #999999;
-	margin-top: 5px;
+	/* margin-top: 5px; */
 }
 
 #content .related-posts ul{
@@ -1402,7 +1402,7 @@ a:hover{
 #content .related-posts ul li{
 	overflow: hidden;
 	margin-bottom: 15px;	
-	width: 290px;
+	width: 246px;
 	margin-right: 20px;
 	float: left;	
 }
@@ -2630,6 +2630,10 @@ ul.sp-list li{
 		width: 650px;
 	}
 
+	#content .related-posts ul li{
+		width: 305px;
+	}
+	
 	.sidebar {
 	  width: 270px;
 	}
@@ -2712,6 +2716,10 @@ ul.sp-list li{
 		width: 640px;
 	}
 
+	#content .related-posts ul li{
+		width: 300px;
+	}
+	
 	.onesidebar-page {
 		width: 640px !important;
 	}
