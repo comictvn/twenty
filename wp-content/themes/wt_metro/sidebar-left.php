@@ -9,6 +9,7 @@
  */
  ?> 
 <div id="left-sidebar" class="sidebar">
+	
 		<?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>			
 				
 			<div class="widget widget_search">
@@ -33,6 +34,6 @@
 			
 				
 		<?php endif; // end sidebar widget area ?>
-		
+	<img class="stardibi" src="<?php echo site_url()."/stardibi.jpg" ?>">
 </div><!-- /sidebar -->
 		
