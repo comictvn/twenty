@@ -20,7 +20,7 @@
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 		<div class="entry-meta">			
 			<span class="date"><?php the_time('F j, Y'); ?> </span>
-			<span class="author"><?php the_author_posts_link(); ?></span>
+			<!--<span class="author"><?php# the_author_posts_link(); ?></span>-->
 			<span class="category"><?php the_category(', ' ); ?></span>
 			<?php if ( comments_open() ) : ?>
 				<span class="comments"><?php comments_popup_link( __('No comments', 'wellthemes'), __( '1 comment', 'wellthemes'), __('% comments', 'wellthemes')); ?></span>		
@@ -28,7 +28,8 @@
 		</div><!-- /entry-meta -->		
 	</header><!-- /entry-header -->
 	
-	<?php the_post_thumbnail('full'); ?>
+	<?php# the_post_thumbnail('full'); ?>
+	
 	<div class="entry-content">	
 		<?php the_content(); ?>
 		<?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'wellthemes' ) . '</span>', 'after' => '</div>' ) ); ?>
