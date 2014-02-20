@@ -34,6 +34,6 @@
 			
 				
 		<?php endif; // end sidebar widget area ?>
-	<a target="_blank" href="http://www.stardibi.com"><img class="stardibi" src="<?php echo site_url()."/stardibi.jpg" ?>"></a>
+	<a title="Stardibi | A playground for Startups" target="_blank" href="http://www.stardibi.com"><img class="stardibi" src="<?php echo site_url()."/stardibi.jpg" ?>"></a>
 </div><!-- /sidebar -->
 		
