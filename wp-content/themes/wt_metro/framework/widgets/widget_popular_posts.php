@@ -84,9 +84,9 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 				</h4>
 				<div class="entry-meta">
 					<span class="date"><?php the_time('M j, Y'); ?></span>
-					<?php if ( comments_open() ) : ?>
-						<span class="comments"><?php comments_popup_link( __('0', 'wellthemes'), __( '1', 'wellthemes'), __('%', 'wellthemes')); ?></span>
-					<?php endif; ?>
+					<!--<?php# if ( comments_open() ) : ?>
+						<span class="comments"><?php# comments_popup_link( __('0', 'wellthemes'), __( '1', 'wellthemes'), __('%', 'wellthemes')); ?></span>
+					<?php# endif; ?>-->
 				</div>	
 			</div>				
   

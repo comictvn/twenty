@@ -22,9 +22,9 @@
 			<span class="date"><?php the_time('F j, Y'); ?> </span>
 			<!--<span class="author"><?php# the_author_posts_link(); ?></span>-->
 			<span class="category"><?php the_category(', ' ); ?></span>
-			<?php if ( comments_open() ) : ?>
-				<span class="comments"><?php comments_popup_link( __('No comments', 'wellthemes'), __( '1 comment', 'wellthemes'), __('% comments', 'wellthemes')); ?></span>		
-			<?php endif; ?>	
+			<!--<?php# if ( comments_open() ) : ?>
+				<span class="comments"><?php# comments_popup_link( __('No comments', 'wellthemes'), __( '1 comment', 'wellthemes'), __('% comments', 'wellthemes')); ?></span>		
+			<?php# endif; ?>	-->
 		</div><!-- /entry-meta -->		
 	</header><!-- /entry-header -->
 	

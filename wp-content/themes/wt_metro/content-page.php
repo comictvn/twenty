@@ -16,10 +16,10 @@
 		<?php if ( wt_get_option( 'wt_show_page_meta' ) == 1 ){ ?>
 			<div class="entry-meta">
 				<span class="date"><?php the_time('F j, Y'); ?> </span>
-				<?php if ( wt_get_option( 'wt_show_page_comments' ) == 1 ){ ?>
-					<span class="comments"><?php comments_popup_link( __('no comments', 'wellthemes'), __( '1 comment', 'wellthemes'), __('% comments', 'wellthemes')); ?></span>
-				<?php } ?>			
-			</div><!-- /entry-meta -->	
+				<!--<?php# if ( wt_get_option( 'wt_show_page_comments' ) == 1 ){ ?>
+					<span class="comments"><?php# comments_popup_link( __('no comments', 'wellthemes'), __( '1 comment', 'wellthemes'), __('% comments', 'wellthemes')); ?></span>
+				<?php# } ?>-->
+			</div><!-- /entry-meta -->
 		<?php } ?>			
 	</header><!-- /entry-header -->
 

@@ -291,8 +291,9 @@ a:hover{
 	font-family: "Open Sans";
 	width: 100%;
 	/* background: #333333; */
-	/*Firefox*/background: -moz-linear-gradient(center top , #004A63, #053C50) repeat scroll 0 0 rgba(0, 0, 0, 0);
-    /*Chrome*/background: -webkit-gradient(linear, left top, left bottom, from(#004A63), to(#053C50));
+	/* background: -moz-linear-gradient(center top , #004A63, #053C50) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#004A63), to(#053C50)); */
+	background-color: #202020;
 	float: left;
 	position: relative;
 	z-index: 30;
@@ -897,8 +898,9 @@ a:hover{
 .cat-header{	
 	/* background: #5FB435; */
 	/* background-color: #359BED; */
-	/*Firefox*/background: -moz-linear-gradient(center top , #004A63, #053C50) repeat scroll 0 0 rgba(0, 0, 0, 0);
-    /*Chrome*/background: -webkit-gradient(linear, left top, left bottom, from(#004A63), to(#053C50));
+	/* background: -moz-linear-gradient(center top , #004A63, #053C50) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#004A63), to(#053C50)); */
+	background-color: #202020;
 	margin-bottom: 15px;
 	/* padding: 6px 10px; */
 	padding: 8px 12px;
@@ -1824,8 +1826,9 @@ ul.sp-list li{
 	background-position: 96% 12px;
 	background-repeat: no-repeat;	
 	/* background-color: #359BED; */
-	/*Firefox*/background: -moz-linear-gradient(center top , #004A63, #053C50) repeat scroll 0 0 rgba(0, 0, 0, 0);
-    /*Chrome*/background: -webkit-gradient(linear, left top, left bottom, from(#004A63), to(#053C50));
+	/* background: -moz-linear-gradient(center top , #004A63, #053C50) repeat scroll 0 0 rgba(0, 0, 0, 0); */
+    /* background: -webkit-gradient(linear, left top, left bottom, from(#004A63), to(#053C50)); */
+	background-color: #202020;
 	padding: 8px 12px;
 	color: #FFFFFF;
 	margin-bottom: 15px;
@@ -2236,8 +2239,9 @@ ul.sp-list li{
 #wp-calendar caption {    
     text-align: center;
 	/* background: #3399FF; */
-	/*Firefox*/background: -moz-linear-gradient(center top , #004A63, #053C50) repeat scroll 0 0 rgba(0, 0, 0, 0);
-    /*Chrome*/background: -webkit-gradient(linear, left top, left bottom, from(#004A63), to(#053C50));
+	/* background: -moz-linear-gradient(center top , #004A63, #053C50) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#004A63), to(#053C50)); */
+	background-color: #202020;
 	font-size: 16px;
 	font-weight: 600;
 	color: #FFFFFF;
