@@ -1286,15 +1286,17 @@ a:hover{
 }
 
 #content .entry-social{
-	margin-bottom: 20px;	
-	padding: 10px;
-	font-size: 1px;
+	/* margin-bottom: 20px;	 */
+	/* padding: 10px; */
+	/* font-size: 1px; */
 	background: #FFFFFF;
+	float: right;
 }
 
 #content .entry-social .fb{
 	margin-right: 35px;
 	font-size: 1px;		
+	vertical-align: text-bottom !important;
 }
 
 #content .entry-social .twitter{	
@@ -1308,7 +1310,7 @@ a:hover{
 #content .entry-social .pinterest{	
 	width: 90px;	
 	margin-right: 25px;
-	vertical-align: top !important;
+	
 }
 
 .entry-footer .entry-tags{
@@ -1452,7 +1454,7 @@ a:hover{
 #content .post,
 #content .page{	
 	overflow: hidden;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	clear: both;
 	background: #FFFFFF;
 }
