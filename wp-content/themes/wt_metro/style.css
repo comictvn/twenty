@@ -1291,26 +1291,30 @@ a:hover{
 	/* font-size: 1px; */
 	background: #FFFFFF;
 	float: right;
+	margin-top: -2px;
+}
+
+#content .entry-social .es {
+	vertical-align: text-top;
 }
 
 #content .entry-social .fb{
 	margin-right: 35px;
 	font-size: 1px;		
-	vertical-align: text-bottom !important;
+	vertical-align: super !important;
 }
 
 #content .entry-social .twitter{	
-	width: 90px;	
+	/* width: 90px;	 */
 }  
 
 #content .entry-social .linkedin{
-	margin-right: 25px;
+	/* margin-right: 25px; */
 }
 
 #content .entry-social .pinterest{	
-	width: 90px;	
+	/* width: 90px;	 */
 	margin-right: 25px;
-	
 }
 
 .entry-footer .entry-tags{

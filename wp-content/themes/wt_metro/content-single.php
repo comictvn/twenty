@@ -29,7 +29,7 @@
 				if ( wt_get_option( 'wt_show_post_social' ) == 1 ) { ?>
 				
 				<div class="entry-social">			
-					<span class="fb">
+					<span class="es fb">
 						<div id="fb-root"></div>
 						<script>
 							(function(d, s, id) {
@@ -43,7 +43,7 @@
 						<div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
 					</span>
 					
-					<span class="twitter">			
+					<span class="es twitter">			
 						<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 						<a href="http://twitter.com/share" class="twitter-share-button"
 							data-url="<?php the_permalink(); ?>"
@@ -52,16 +52,16 @@
 						</a>
 					</span>
 					
-					<span class="gplus">	
+					<span class="es gplus">	
 						<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 						<div class="g-plusone" data-size="medium"></div>
 					</span>
 					
-					<span class="pinterest">
+					<span class="es pinterest">
 						<a href="http://pinterest.com/pin/create/button/?url=<?php the_permalink(); ?>&media=<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' ); echo $thumb['0']; ?>&description=<?php the_title(); ?>" class="pin-it-button" count-layout="horizontal">Pin It</a><script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js"></script>
 					</span>
 					
-					<span class="linkedin">	
+					<span class="es linkedin">	
 						<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
 						<script type="IN/Share" data-counter="right"></script>
 					</span>	
