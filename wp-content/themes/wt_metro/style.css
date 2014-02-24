@@ -337,13 +337,13 @@ a:hover{
 }
 
 #main-menu ul li a {
+	color: #FFFFFF;
 	display: block;
+	font-family: RobotoCondensed;
+	font-size: 20px;
+	line-height: 22px;
 	padding: 18px 22px;
 	text-align: center;
-	font-size: 18px;
-	font-weight: 600;
-	line-height: 22px;
-	color: #FFFFFF;	
 }
 
 #main-menu .current-menu-item ,
@@ -928,7 +928,10 @@ a:hover{
 	padding-left: 24px;	
 	display: inline-block;
 	color: #FFFFFF;	
-	font-family: "Open Sans";
+	/* font-family: "Open Sans"; */
+	font-family: RobotoCondensed;
+	font-size: 17px;
+	font-weight: normal;
 }
 
 .cat-header h3 a{
