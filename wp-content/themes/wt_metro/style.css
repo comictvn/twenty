@@ -140,6 +140,10 @@ a:hover{
 #wellthemes_facebook_widget-2 > iframe {
 	width: 350px !important;
 }
+
+.fb_ltr {
+  width: 800px !important;
+}
 	
 #left-sidebar{
 	float: left;
@@ -1427,6 +1431,7 @@ a:hover{
 	width: 246px;
 	margin-right: 20px;
 	float: left;	
+	height: 100px;
 }
 
 #content .related-posts .wp-post-image{
@@ -2667,8 +2672,12 @@ ul.sp-list li{
 	}
 
 	#wellthemes_facebook_widget-2 > iframe {
-	  width: 270px !important;
-	  /* width: 267px !important; */
+		width: 270px !important;
+		/* width: 267px !important; */
+	}
+	
+	.fb_ltr {
+		width: 650px !important;
 	}
 	
 	#content .related-posts ul li{
@@ -2676,11 +2685,11 @@ ul.sp-list li{
 	}
 	
 	.sidebar {
-	  width: 270px;
+		width: 270px;
 	}
 	
 	.widget_popular_posts .post-right {
-	  width: 224px;
+		width: 224px;
 	}
 
 	#left-sidebar{
@@ -2758,7 +2767,11 @@ ul.sp-list li{
 	}
 
 	#wellthemes_facebook_widget-2 > iframe {
-	  width: 640px !important;
+		width: 640px !important;
+	}
+	
+	.fb_ltr {
+		width: 640px !important;
 	}
 	
 	#content .related-posts ul li{
@@ -2912,6 +2925,14 @@ ul.sp-list li{
 		width: 460px;
 	}
 	
+	#wellthemes_facebook_widget-2 > iframe {
+		width: 460px !important;
+	}
+	
+	.fb_ltr {
+		width: 460px !important;
+	}
+
 	#main-menu {
 		background: none;		
 	}
@@ -2954,10 +2975,6 @@ ul.sp-list li{
 	
 	#content{
 		margin-right: 0;
-	}
-	
-	#wellthemes_facebook_widget-2 > iframe {
-	  width: 460px !important;
 	}
 	
 	#left-sidebar{
@@ -3267,9 +3284,13 @@ ul.sp-list li{
 		margin-right: 0;
 	}
 	
+	.fb_ltr {
+		width: 270px !important;
+	}
+	
 	#wellthemes_facebook_widget-2 > iframe {
-	  width: 270px !important;
-	  /* width: 267px !important; */
+		width: 270px !important;
+		/* width: 267px !important; */
 	}
 	
 	.stardibi {
