@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * The template for displaying the featured posts on homepage.
  * Gets the category for the posts from the theme options. 
@@ -18,20 +18,20 @@
 ?>
 
 <div id="feat-posts">
-	<header class="cat-header">	
+	<!--<header class="cat-header">	
 		<?php
-			if ($cat_id == 0 ) {	?>								
-				<h3> <?php _e('Tin mới nhất', 'wellthemes'); ?></h3>	
-				<a class="rss" href="<?php bloginfo('rss2_url'); ?>" >RSS</a>
+			#if ($cat_id == 0 ) {	?>								
+				<h3> <?php# _e('Latest Posts', 'wellthemes'); ?></h3>	
+				<a class="rss" href="<?php# bloginfo('rss2_url'); ?>" >RSS</a>
 			<?php					
-			} else {													
+			#} else {													
 				?>
-				<h3><a href="<?php echo esc_url( $cat_url ); ?>" ><?php echo $cat_name; ?></a></h3>	
-				<a class="rss" href="<?php home_url(); ?>?cat=<?php echo $cat_id; ?>&feed=rss2" >RSS</a>
+				<h3><a href="<?php# echo esc_url( $cat_url ); ?>" ><?php# echo $cat_name; ?></a></h3>	
+				<a class="rss" href="<?php# home_url(); ?>?cat=<?php# echo $cat_id; ?>&feed=rss2" >RSS</a>
 				<?php
-			}
+			#}
 		?>
-	</header>
+	</header>-->
 	
 	<?php
 		$limit = get_option('posts_per_page');
