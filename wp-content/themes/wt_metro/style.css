@@ -2811,6 +2811,10 @@ ul.sp-list li{
 		margin-right: 0;
 	}
 	
+	.stardibi {
+		width: 640px;
+	}
+	
 	#left-sidebar{
 		margin-right: 0;
 	}
@@ -2981,6 +2985,10 @@ ul.sp-list li{
 	}
 		
 	#content{
+		width: 460px;
+	}
+	
+	.stardibi {
 		width: 460px;
 	}
 	
