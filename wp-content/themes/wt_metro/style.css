@@ -137,6 +137,10 @@ a:hover{
 	overflow: hidden;
 }
 
+#wellthemes_facebook_widget-2 > iframe {
+	width: 350px !important;
+}
+	
 #left-sidebar{
 	float: left;
 	/* margin-right: 30px;	 */
@@ -2662,6 +2666,11 @@ ul.sp-list li{
 		width: 650px;
 	}
 
+	#wellthemes_facebook_widget-2 > iframe {
+	  width: 270px !important;
+	  /* width: 267px !important; */
+	}
+	
 	#content .related-posts ul li{
 		width: 305px;
 	}
@@ -2748,6 +2757,10 @@ ul.sp-list li{
 		width: 640px;
 	}
 
+	#wellthemes_facebook_widget-2 > iframe {
+	  width: 640px !important;
+	}
+	
 	#content .related-posts ul li{
 		width: 300px;
 	}
@@ -2844,7 +2857,7 @@ ul.sp-list li{
 	}
 	
 	.widget_carousel,
-	.widget_facebook,
+	/* .widget_facebook, */
 	.widget_googleplus,
 	.widget_tweet,
 	.widget_weather,
@@ -2937,6 +2950,10 @@ ul.sp-list li{
 	
 	#content{
 		margin-right: 0;
+	}
+	
+	#wellthemes_facebook_widget-2 > iframe {
+	  width: 460px !important;
 	}
 	
 	#left-sidebar{
@@ -3119,7 +3136,7 @@ ul.sp-list li{
 	.widget_adsingle,
 	.widget_tile_posts,
 	.widget_carousel,
-	.widget_facebook,
+	/* .widget_facebook, */
 	.widget_googleplus,
 	.widget_tweet,
 	.widget_weather,
@@ -3240,6 +3257,11 @@ ul.sp-list li{
 	#content{
 		width: 270px;
 		margin-right: 0;
+	}
+	
+	#wellthemes_facebook_widget-2 > iframe {
+	  width: 270px !important;
+	  /* width: 267px !important; */
 	}
 	
 	.stardibi {
@@ -3369,7 +3391,8 @@ ul.sp-list li{
 	.widget_adsingle,
 	.widget_tile_posts,
 	.widget_carousel,
-	.widget_facebook,
+	/* .widget_facebook, */
+	.widget_calendar,
 	.widget_googleplus,
 	.widget_tweet,
 	.widget_weather,
