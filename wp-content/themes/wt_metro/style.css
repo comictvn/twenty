@@ -1808,7 +1808,7 @@ ul.sp-list li{
 #content  .pagination{
 	clear: both;
 	overflow: hidden;
-	margin: 30px 0;	
+	margin: 20px 0;	
 }
 
 #content  .pagination a:hover{
@@ -1820,7 +1820,7 @@ ul.sp-list li{
 	background: #EEEEEE;
 	display: inline-block;	
 	margin-right:3px;
-	margin-bottom: 8px;
+	/* margin-bottom: 8px; */
 	padding: 5px 12px;
 }
 
