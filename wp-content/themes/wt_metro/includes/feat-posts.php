@@ -33,7 +33,19 @@
 		?>
 	</header>
 	
+	<?php
+		$limit = get_option('posts_per_page');
+		$paged = (get_query_var('paged')) ? get_query_var('paged') : (get_query_var('page') ? get_query_var('page') : 1);
+		#$limit = 1; $paged = 4;
+		$wp_query= null;
+		$wp_query = new WP_Query();
+		$wp_query->query('posts_per_page=' . $limit . '&paged=' . $paged);
+		#query_posts('showposts=' . $limit . '&paged=' . $paged);
+		# $wp_query->is_archive = true; $wp_query->is_home = true; */
+	?>
+
 	<?php while ( have_posts() ) : the_post(); ?>
+	<?php# while ( $wp_query->have_posts() ) : $wp_query->the_post(); ?>
 		<?php
 			/* Include the Post-Format-specific template for the content.
 			* If you want to overload this in a child theme then include a file
@@ -43,6 +55,28 @@
 		?>
 		
 	<?php endwhile; ?>
-	<?php wt_pagination(); ?>
+	
+	<div class="pagination">
+		<?php echo paginate_links( array (
+				'base'         => '%_%',
+				'format'       => '?page=%#%',
+				/* 'format'       => '/page/%#%', */
+				'total'        => $wp_query->max_num_pages,
+				'current'      => (get_query_var('paged')) ? get_query_var('paged') : 1,
+				/* 'show_all'     => False, */
+				/* 'end_size'     => 1, */
+				'mid_size'     => 4,
+				/* 'prev_next'    => True,
+				'prev_text'    => __('« Previous'),
+				'next_text'    => __('Next »'),
+				'type'         => 'plain',
+				'add_args'     => False,
+				'add_fragment' => '' */
+			) ); ?>
+	</div><!--// end .pagination -->
+	<?php 
+		#wp_reset_query();
+		#wt_pagination(); 
+	?>
 	
 </div> <!--/feat-posts -->
