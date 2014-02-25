@@ -70,29 +70,22 @@ if (!isset($options['count'])) {$options['count'] = "off";}
 			}
 			$commenttitle .= $options['title']."</h3>";
 		}
-		$content .= '
-		<div class="entry-social">			
-					<span class="es fb">
-						<div id="fb-root"></div>
-						<div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
-					</span>
-					<span class="es twitter">
-						<a href="http://twitter.com/share" class="twitter-share-button"
-							data-url="<?php the_permalink(); ?>"
-							data-text="<?php the_title(); ?>"
-							data-count="horizontal">Tweet
-						</a>
-					</span>
-					<span class="es gplus">	
-						<div class="g-plusone" data-size="medium"></div>
-					</span>
-					<span class="es pinterest">
-						<a href="http://pinterest.com/pin/create/button/?url=<?php the_permalink(); ?>&media=<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), \'thumbnail\' ); echo $thumb[\'0\']; ?>&description=<?php the_title(); ?>" class="pin-it-button" count-layout="horizontal">Pin It</a>
-					</span>
-					<span class="es linkedin">	
-						<script type="IN/Share" data-counter="right"></script>
-					</span>	
-				</div>';
+		$content .= '<div class="entry-social">			
+						<span class="es fb">
+							<div id="fb-root"></div>
+							<div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+						</span>
+						<span class="es twitter">
+							<a href="http://twitter.com/share" class="twitter-share-button"
+								data-url="<?php the_permalink(); ?>"
+								data-text="<?php the_title(); ?>"
+								data-count="horizontal">Tweet
+							</a>
+						</span>
+						<span class="es gplus">	
+							<div class="g-plusone" data-size="medium"></div>
+						</span>
+					</div>';
 		#$content .= "<!-- Facebook Comments for WordPress: http://peadig.com/wordpress-plugins/facebook-comments/ -->".$commenttitle.$commentcount;
 		#$content .= $commenttitle.$commentcount;
 		$content .= $commenttitle;

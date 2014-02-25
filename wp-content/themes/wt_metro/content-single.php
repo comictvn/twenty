@@ -57,14 +57,14 @@
 						<div class="g-plusone" data-size="medium"></div>
 					</span>
 					
-					<span class="es pinterest">
-						<a href="http://pinterest.com/pin/create/button/?url=<?php the_permalink(); ?>&media=<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' ); echo $thumb['0']; ?>&description=<?php the_title(); ?>" class="pin-it-button" count-layout="horizontal">Pin It</a><script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js"></script>
+					<!--<span class="es pinterest">
+						<a href="http://pinterest.com/pin/create/button/?url=<?php# the_permalink(); ?>&media=<?php# $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' ); echo $thumb['0']; ?>&description=<?php# the_title(); ?>" class="pin-it-button" count-layout="horizontal">Pin It</a><script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js"></script>
 					</span>
 					
 					<span class="es linkedin">	
 						<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
 						<script type="IN/Share" data-counter="right"></script>
-					</span>	
+					</span>	-->
 			  
 				</div><!-- /entry-social -->
 				
