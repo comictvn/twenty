@@ -35,15 +35,16 @@
 	
 	<?php
 		$limit = get_option('posts_per_page');
-		$paged = (get_query_var('paged')) ? get_query_var('paged') : (get_query_var('page') ? get_query_var('page') : 1);
+		//$paged = (get_query_var('paged')) ? get_query_var('paged') : (get_query_var('page') ? get_query_var('page') : 1);
+		$paged = get_query_var('page') ? get_query_var('page') : 1;
 		#$limit = 1; $paged = 4;
 		$wp_query= null;
 		$wp_query = new WP_Query();
 		$wp_query->query('posts_per_page=' . $limit . '&paged=' . $paged);
 		#query_posts('showposts=' . $limit . '&paged=' . $paged);
-		# $wp_query->is_archive = true; $wp_query->is_home = true; */
+		/* $wp_query->is_archive = true; $wp_query->is_home = false; */
 	?>
-
+	
 	<?php while ( have_posts() ) : the_post(); ?>
 	<?php# while ( $wp_query->have_posts() ) : $wp_query->the_post(); ?>
 		<?php
@@ -58,7 +59,7 @@
 	
 	<div class="pagination">
 		<?php echo paginate_links( array (
-				'base'         => '%_%',
+				/* 'base'         => '%_%', */
 				'format'       => '?page=%#%',
 				/* 'format'       => '/page/%#%', */
 				'total'        => $wp_query->max_num_pages,
