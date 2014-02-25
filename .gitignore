@@ -2,3 +2,4 @@
 /wp-content/uploads
 /logs
 /scripts
+nginx.conf
