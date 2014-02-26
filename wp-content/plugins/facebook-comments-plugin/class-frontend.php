@@ -73,17 +73,17 @@ if (!isset($options['count'])) {$options['count'] = "off";}
 		$content .= '<div class="entry-social">			
 						<span class="es fb">
 							<div id="fb-root"></div>
-							<div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+							<div class="fb-like" data-send="false" data-layout="box_count" data-width="100" data-show-faces="false"></div>
 						</span>
 						<span class="es twitter">
 							<a href="http://twitter.com/share" class="twitter-share-button"
 								data-url="<?php the_permalink(); ?>"
 								data-text="<?php the_title(); ?>"
-								data-count="horizontal">Tweet
+								data-count="vertical">Tweet
 							</a>
 						</span>
 						<span class="es gplus">	
-							<div class="g-plusone" data-size="medium"></div>
+							<div class="g-plusone" data-size="tall"></div>
 						</span>
 					</div>';
 		#$content .= "<!-- Facebook Comments for WordPress: http://peadig.com/wordpress-plugins/facebook-comments/ -->".$commenttitle.$commentcount;
