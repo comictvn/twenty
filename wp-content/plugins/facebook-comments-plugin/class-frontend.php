@@ -88,7 +88,7 @@ if (!isset($options['count'])) {$options['count'] = "off";}
 					</div>';
 		#$content .= "<!-- Facebook Comments for WordPress: http://peadig.com/wordpress-plugins/facebook-comments/ -->".$commenttitle.$commentcount;
 		#$content .= $commenttitle.$commentcount;
-		$content .= $commenttitle;
+		#$content .= $commenttitle;
 
       	if ($options['html5'] == 'on') {
 			$content .=	"<div class=\"fb-comments\" data-href=\"".get_permalink()."\" data-num-posts=\"".$options['num']."\" data-width=\"".$options['width']."\" data-colorscheme=\"".$options['scheme']."\"></div>";
