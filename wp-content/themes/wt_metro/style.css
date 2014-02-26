@@ -1312,7 +1312,7 @@ a:hover{
 #content .entry-social .fb{
 	margin-right: 35px;
 	font-size: 1px;		
-	vertical-align: middle !important;
+	vertical-align: top !important;
 }
 
 #content .entry-social .twitter{	

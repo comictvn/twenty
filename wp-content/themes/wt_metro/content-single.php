@@ -9,6 +9,18 @@
  */
 ?>
 
+<script>
+	(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php# if ( wt_get_option( 'wt_show_post_nav' ) == 1 ) { ?>
 			<!--<div class="post-nav">
@@ -26,7 +38,7 @@
 				<span class="comments"><?php# comments_popup_link( __('No comments', 'wellthemes'), __( '1 comment', 'wellthemes'), __('% comments', 'wellthemes')); ?></span>		
 			<?php# endif; ?>	-->
 			<?php //add social buttons
-				if ( wt_get_option( 'wt_show_post_social' ) == 1 ) { ?>
+				/*if ( wt_get_option( 'wt_show_post_social' ) == 1 ) { ?>
 				
 				<div class="entry-social">			
 					<span class="es fb">
@@ -68,7 +80,7 @@
 			  
 				</div><!-- /entry-social -->
 				
-			<?php } ?>
+			<?php } */?>
 		</div><!-- /entry-meta -->		
 	</header><!-- /entry-header -->
 	
