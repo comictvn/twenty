@@ -867,7 +867,8 @@ a:hover{
 
 .entry-meta{	
 	color: #999999;
-	font-family: "Open Sans";
+	/* font-family: "Open Sans"; */
+	font-family: Tahoma;
 }
 
 .post .entry-meta,
