@@ -73,7 +73,7 @@ if (!isset($options['count'])) {$options['count'] = "off";}
 		$content .= '<div class="entry-social">			
 						<span class="es fb">
 							<div id="fb-root"></div>
-							<div class="fb-like" data-send="false" data-layout="box_count" data-width="100" data-show-faces="false"></div>
+							<div class="fb-like" data-share="false" data-layout="box_count" data-width="100" data-show-faces="false"></div>
 						</span>
 						<span class="es twitter">
 							<a href="http://twitter.com/share" class="twitter-share-button"
