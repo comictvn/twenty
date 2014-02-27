@@ -449,7 +449,7 @@ return array(
 	'browsercache.other.etag' => false,
 	'browsercache.other.w3tc' => false,
 	'browsercache.other.replace' => false,
-	'browsercache.timestamp' => '1393310247',
+	'browsercache.timestamp' => '1393481434',
 	'browsercache.replace.exceptions' => array(
 	),
 	'mobile.enabled' => false,
@@ -655,7 +655,7 @@ return array(
 	'notes.plugins_updated' => false,
 	'notes.cdn_upload' => false,
 	'notes.cdn_reupload' => false,
-	'notes.need_empty_pgcache' => true,
+	'notes.need_empty_pgcache' => false,
 	'notes.need_empty_minify' => false,
 	'notes.need_empty_objectcache' => false,
 	'notes.root_rules' => true,
@@ -733,5 +733,6 @@ return array(
 	),
 	'plugin.license_key' => '',
 	'plugin.type' => '',
+	'wordpress.home' => 'http://localhost/twenty',
 	'pgcache.bad_behavior_path' => '',
 );
