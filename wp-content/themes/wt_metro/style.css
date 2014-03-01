@@ -1289,7 +1289,7 @@ a:hover{
 	/* padding: 10px; */
 	/* font-size: 1px; */
 	background: #FFFFFF;
-	float: right;
+	float: left;
 	margin-top: -4px;
 }
 
@@ -3463,5 +3463,11 @@ ul.sp-list li{
 }
 
 #ssba, #ssba a {
-  display: inline;
+  /* display: inline; */
+  float: right;
+}
+
+.stitle {
+  float: left;
+  margin: 13px 10px 0 0;
 }

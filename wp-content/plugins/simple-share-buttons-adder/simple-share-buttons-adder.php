@@ -609,7 +609,7 @@ GNU General Public License for more details.
 		if (is_page() && $arrSettings['ssba_pages'] == 'Y' || is_single() && $arrSettings['ssba_posts'] == 'Y' || is_category() && $arrSettings['ssba_cats_archs'] == 'Y' || is_archive() && $arrSettings['ssba_cats_archs'] == 'Y' || is_home() && $arrSettings['ssba_homepage'] == 'Y' || $booShortCode == TRUE) {
 			
 			// ssba div
-			$htmlShareButtons.= '<!-- I got these buttons from simplesharebuttons.com --><div id="ssba">';
+			$htmlShareButtons.= '<div id="ssba">';
 			
 			// center if set so
 			$htmlShareButtons.= ($arrSettings['ssba_align'] == 'center' ? '<center>' : NULL);
@@ -628,7 +628,7 @@ GNU General Public License for more details.
 				else { 
 					
 					// share text
-					$htmlShareButtons .= $arrSettings['ssba_share_text'];
+					$htmlShareButtons .= '<span class="stitle">' . $arrSettings['ssba_share_text']. '</span>';
 				}
 				// add a line break if set to above
 				($arrSettings['ssba_text_placement'] == 'above' ? $htmlShareButtons .= '<br/>' : NULL);
