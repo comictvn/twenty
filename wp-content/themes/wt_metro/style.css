@@ -133,9 +133,13 @@ a:hover{
 	width: 350px !important;
 }
 
-.fb-comments iframe {
+/* .fb-comments iframe {
   width: 800px !important;
 }
+
+.fb-comments .fbFeedbackContent {
+	width: 800px !important;
+} */
 	
 #left-sidebar{
 	float: left;
@@ -2677,8 +2681,13 @@ ul.sp-list li{
 	}
 	
 	.fb-comments iframe {
-		width: 650px !important;
+		/* width: 650px !important; */
+		display : none;
 	}
+	/* 
+	.fb-comments .fbFeedbackContent {
+		width: 650px !important;
+	} */
 	
 	#content .related-posts ul li{
 		width: 305px;
@@ -2775,8 +2784,13 @@ ul.sp-list li{
 	}
 
 	.fb-comments iframe {
-		width: 640px !important;
+		/* width: 640px !important; */
+		display : none;
 	}
+	
+	/* .fb-comments .fbFeedbackContent {
+		width: 640px !important;
+	} */
 	
 	#content .related-posts ul li{
 		width: 300px;
@@ -2938,8 +2952,13 @@ ul.sp-list li{
 	}
 
 	.fb-comments iframe {
-		width: 460px !important;
+		/* width: 460px !important; */
+		display : none;
 	}
+	
+	/* .fb-comments .fbFeedbackContent {
+		width: 460px !important;
+	} */
 
 	#main-menu {
 		background: none;		
@@ -3292,8 +3311,8 @@ ul.sp-list li{
 		margin-right: 0;
 	}
 	
-	.fb-comments iframe {
-		width: 270px !important;
+	.stardibi {
+		width: 270px
 	}
 	
 	#wellthemes_facebook_widget-2 > iframe {
@@ -3305,9 +3324,14 @@ ul.sp-list li{
 		width: 270px !important;
 	}
 	
-	.stardibi {
-		width: 270px
+	.fb-comments iframe {
+		/* width: 270px !important; */
+		display : none;
 	}
+	
+	/* .fb-comments .fbFeedbackContent {
+		width: 270px !important;
+	} */
 	
 	.onesidebar-page {
 		width: 270px !important;
