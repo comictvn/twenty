@@ -40,6 +40,7 @@ body{
 
 .stardibi {
 	width: auto;
+	margin-top: 20px;
 }
 	
 h1, h2, h3, h4, h5, h6 {
@@ -128,7 +129,7 @@ a:hover{
 	width: 350px !important;
 }
 
-.fb-recommendations > iframe {
+.fb-recommendations iframe {
 	width: 350px !important;
 }
 
@@ -2639,7 +2640,7 @@ ul.sp-list li{
 #footer .footer-info {
 	border-top: 1px solid #EEEEEE;
 	padding-top: 10px;
-	font-family: "Open Sans";
+	font-family: Tahoma;
 }
 
 #footer .widget{
@@ -2669,6 +2670,10 @@ ul.sp-list li{
 	#wellthemes_facebook_widget-2 > iframe {
 		width: 270px !important;
 		/* width: 267px !important; */
+	}
+	
+	.fb-recommendations iframe {
+		width: 270px !important;
 	}
 	
 	.fb_ltr {
@@ -2765,6 +2770,10 @@ ul.sp-list li{
 		width: 640px !important;
 	}
 	
+	.fb-recommendations iframe {
+		width: 640px !important;
+	}
+
 	.fb_ltr {
 		width: 640px !important;
 	}
@@ -2924,6 +2933,10 @@ ul.sp-list li{
 		width: 460px !important;
 	}
 	
+	.fb-recommendations iframe {
+		width: 460px !important;
+	}
+
 	.fb_ltr {
 		width: 460px !important;
 	}
@@ -3286,6 +3299,10 @@ ul.sp-list li{
 	#wellthemes_facebook_widget-2 > iframe {
 		width: 270px !important;
 		/* width: 267px !important; */
+	}
+	
+	.fb-recommendations iframe {
+		width: 270px !important;
 	}
 	
 	.stardibi {
