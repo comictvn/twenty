@@ -127,3 +127,5 @@
 				get_template_part( 'includes/related-posts' );
 			}
 		?>
+		
+<div class="fb-recommendations-bar" data-site="twenty.vn" data-read-time="10" data-side="right" data-action="like"></div>

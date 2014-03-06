@@ -34,6 +34,7 @@
 			
 				
 		<?php endif; // end sidebar widget area ?>
+	<div class="fb-recommendations" data-site="twenty.vn" data-action="likes, recommends" data-colorscheme="light" data-header="true"></div>
 	<a title="Stardibi | A playground for Startups" target="_blank" href="http://www.stardibi.com"><img class="stardibi" src="<?php echo site_url()."/stardibi.jpg" ?>"></a>
 </div><!-- /sidebar -->
 		
