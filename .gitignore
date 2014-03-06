@@ -3,8 +3,9 @@
 /logs
 /scripts
 nginx.conf
+/.htaccess
+/wp-content/cache
+/wp-content/w3tc-config
 /wp-content/advanced-cache.php
-/wp-content/cache/config/index.html
 /wp-content/db.php
 /wp-content/object-cache.php
-/.htaccess
