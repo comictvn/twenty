@@ -133,7 +133,7 @@ a:hover{
 	width: 350px !important;
 }
 
-.fb_ltr {
+.fb-comments iframe {
   width: 800px !important;
 }
 	
@@ -2676,7 +2676,7 @@ ul.sp-list li{
 		width: 270px !important;
 	}
 	
-	.fb_ltr {
+	.fb-comments iframe {
 		width: 650px !important;
 	}
 	
@@ -2774,7 +2774,7 @@ ul.sp-list li{
 		width: 640px !important;
 	}
 
-	.fb_ltr {
+	.fb-comments iframe {
 		width: 640px !important;
 	}
 	
@@ -2937,7 +2937,7 @@ ul.sp-list li{
 		width: 460px !important;
 	}
 
-	.fb_ltr {
+	.fb-comments iframe {
 		width: 460px !important;
 	}
 
@@ -3292,7 +3292,7 @@ ul.sp-list li{
 		margin-right: 0;
 	}
 	
-	.fb_ltr {
+	.fb-comments iframe {
 		width: 270px !important;
 	}
 	
