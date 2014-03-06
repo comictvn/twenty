@@ -733,6 +733,6 @@ return array(
 	),
 	'plugin.license_key' => '',
 	'plugin.type' => '',
-	'wordpress.home' => 'http://localhost/twenty',
+	'wordpress.home' => 'http://www.twenty.vn',
 	'pgcache.bad_behavior_path' => '',
 );
