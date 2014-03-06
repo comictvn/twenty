@@ -449,7 +449,7 @@ return array(
 	'browsercache.other.etag' => false,
 	'browsercache.other.w3tc' => false,
 	'browsercache.other.replace' => false,
-	'browsercache.timestamp' => '1393569364',
+	'browsercache.timestamp' => '1394075851',
 	'browsercache.replace.exceptions' => array(
 	),
 	'mobile.enabled' => false,
@@ -733,6 +733,6 @@ return array(
 	),
 	'plugin.license_key' => '',
 	'plugin.type' => '',
-	'wordpress.home' => 'http://localhost/twenty',
+	'wordpress.home' => 'http://www.twenty.vn',
 	'pgcache.bad_behavior_path' => '',
 );
