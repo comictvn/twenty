@@ -103,7 +103,7 @@ if (!isset($options['count'])) {$options['count'] = "off";}
 return $content;
 }
 /* add_filter ('the_content', 'fbcommentbox', 100); */
-add_filter('comment_text', 'fbcommentbox', 100);
+add_filter('the_tags', 'fbcommentbox', 100);
 
 
 function fbcommentshortcode($fbatts) {
