@@ -3530,7 +3530,7 @@ ul.sp-list li{
 /*----------------------*/
 
 .yarpp-thumbnails-horizontal .yarpp-thumbnail {
-  height: 222px !important;
+  height: 244px !important;
   width: 149px !important;
 }
 
@@ -3543,6 +3543,6 @@ ul.sp-list li{
   font-family: robotocondensed !important;
   font-size: 1.2em !important;
   line-height: 1.3em !important;
-  max-height: 5.5em !important;
+  max-height: 7em !important;
   width: auto !important;
 }
