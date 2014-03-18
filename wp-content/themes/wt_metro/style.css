@@ -1289,7 +1289,7 @@ a:hover{
 }
 
 #content .entry-footer{
-	margin: 10px 0;
+	margin: 0;
 	overflow: hidden;
 }
 
@@ -1467,9 +1467,13 @@ a:hover{
 #content .post,
 #content .page{	
 	overflow: hidden;
-	margin-bottom: 20px;
+	
 	clear: both;
 	background: #FFFFFF;
+}
+
+#feat-posts .post, .archive .post {
+margin-bottom: 20px;
 }
 
 /*-- Archives page --*/
@@ -3518,3 +3522,6 @@ ul.sp-list li{
   margin: 13px 10px 0 0;
 }
 
+.shareaholic-recommendations-footer {
+	margin: 0 !important;
+}
