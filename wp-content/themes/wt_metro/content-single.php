@@ -103,28 +103,27 @@
 </article><!-- /post-<?php the_ID(); ?> -->
 
 <?php //if ( get_the_author_meta( 'description' ) && ( ! function_exists( 'is_multi_author' ) || is_multi_author() ) ) : ?>
-		<?php if ( wt_get_option( 'wt_show_author_info' ) == 1 ) { ?>
-			<div class="entry-author">	
-				<h3 class="title"><?php printf( __( 'About %s', 'wellthemes' ), get_the_author() ); ?></h3>
-				<div class="author-avatar">
-					<?php echo get_avatar( get_the_author_meta( 'user_email' ), 68 ); ?>
-				</div><!-- /author-avatar -->				
-				<div class="author-description">					
-					<?php the_author_meta( 'description' ); ?>
-					<div id="author-link">
-						<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" rel="author">
-							<?php printf( __( 'View all posts by %s <span class="meta-nav">&rarr;</span>', 'wellthemes' ), get_the_author() ); ?>
-						</a>
-					</div><!-- /author-link	-->
-				</div><!-- /author-description -->
-			</div><!-- /author-info -->
-		
-		<?php } //endif; ?>
-		
-		<!-- social -->
-		
-		<?php
-			if ( wt_get_option( 'wt_show_related_posts' ) == 1 ) { 
-				get_template_part( 'includes/related-posts' );
-			}
-		?>
+<?php if ( wt_get_option( 'wt_show_author_info' ) == 1 ) { ?>
+	<div class="entry-author">	
+		<h3 class="title"><?php printf( __( 'About %s', 'wellthemes' ), get_the_author() ); ?></h3>
+		<div class="author-avatar">
+			<?php echo get_avatar( get_the_author_meta( 'user_email' ), 68 ); ?>
+		</div><!-- /author-avatar -->				
+		<div class="author-description">					
+			<?php the_author_meta( 'description' ); ?>
+			<div id="author-link">
+				<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" rel="author">
+					<?php printf( __( 'View all posts by %s <span class="meta-nav">&rarr;</span>', 'wellthemes' ), get_the_author() ); ?>
+				</a>
+			</div><!-- /author-link	-->
+		</div><!-- /author-description -->
+	</div><!-- /author-info -->
+
+<?php } //endif; ?>
+
+<!-- social -->
+<?php
+	if ( wt_get_option( 'wt_show_related_posts' ) == 1 ) { 
+		get_template_part( 'includes/related-posts' );
+	}
+?>

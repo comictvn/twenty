@@ -3525,3 +3525,24 @@ ul.sp-list li{
 .shareaholic-recommendations-footer {
 	margin: 0 !important;
 }
+
+
+/*----------------------*/
+
+.yarpp-thumbnails-horizontal .yarpp-thumbnail {
+  height: 222px !important;
+  width: 149px !important;
+}
+
+.yarpp-thumbnail > img, .yarpp-thumbnail-default {
+  height: 120px !important;
+  width: 139px !important;
+}
+
+.yarpp-thumbnails-horizontal .yarpp-thumbnail-title {
+  font-family: robotocondensed !important;
+  font-size: 1.2em !important;
+  line-height: 1.3em !important;
+  max-height: 5.5em !important;
+  width: auto !important;
+}
