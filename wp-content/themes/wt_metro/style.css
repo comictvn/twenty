@@ -1299,7 +1299,7 @@ a:hover{
 	/* font-size: 1px; */
 	background: #FFFFFF;
 	float: left;
-	margin-top: -4px;
+	margin-top: 15px;
 }
 
 #content .entry-social .es {
@@ -3508,11 +3508,13 @@ ul.sp-list li{
 }
 
 #ssba, #ssba a {
-  /* display: inline; */
   float: right;
+  margin-top: 15px;
+  padding: 0;
 }
 
 .stitle {
   float: left;
   margin: 13px 10px 0 0;
 }
+
