@@ -90,6 +90,8 @@
 		<?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'wellthemes' ) . '</span>', 'after' => '</div>' ) ); ?>
 	</div><!-- /entry-content -->
 
+	<div class="fb-recommendations-bar" data-site="twenty.vn" data-read-time="1" data-side="right" data-action="like"></div>
+	
 	<footer class="entry-footer">
 		
 		<div class="entry-tags">
@@ -126,5 +128,3 @@
 				get_template_part( 'includes/related-posts' );
 			}
 		?>
-		
-<div class="fb-recommendations-bar" data-site="twenty.vn" data-read-time="1" data-side="right" data-action="like"></div>
