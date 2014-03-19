@@ -70,7 +70,7 @@ if (!isset($options['count'])) {$options['count'] = "off";}
 			}
 			$commenttitle .= $options['title']."</h3>";
 		}
-		$content .= '<div class="entry-social">			
+		/*$content .= '<div class="entry-social">			
 						<span class="es fb">
 							<div class="fb-like" data-share="false" data-layout="box_count" data-width="100" data-show-faces="false"></div>
 						</span>
@@ -82,7 +82,7 @@ if (!isset($options['count'])) {$options['count'] = "off";}
 						<span class="es gplus">	
 							<div class="g-plusone" data-size="tall"></div>
 						</span>
-					</div>';
+					</div>';*/
 		#$content .= "<!-- Facebook Comments for WordPress: http://peadig.com/wordpress-plugins/facebook-comments/ -->".$commenttitle.$commentcount;
 		#$content .= $commenttitle.$commentcount;
 		#$content .= $commenttitle;
