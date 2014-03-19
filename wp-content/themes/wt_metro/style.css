@@ -3524,6 +3524,9 @@ ul.sp-list li{
 	margin: 0 !important;
 }
 
+.fb-comments.fb_iframe_widget {
+  margin-top: 20px;
+}
 
 /*----------------------*/
 
