@@ -1298,8 +1298,8 @@ a:hover{
 	/* padding: 10px; */
 	/* font-size: 1px; */
 	background: #FFFFFF;
-	float: left;
-	margin-top: 15px;
+	float: right;
+	/* margin-top: 15px; */
 }
 
 #content .entry-social .es {
@@ -3512,9 +3512,7 @@ ul.sp-list li{
 }
 
 #ssba, #ssba a {
-  float: right;
-  margin-top: 15px;
-  padding: 0;
+  display: inline;
 }
 
 .stitle {
@@ -3545,4 +3543,8 @@ ul.sp-list li{
   line-height: 1.3em !important;
   max-height: 7em !important;
   width: auto !important;
+}
+
+.yarpp-related {
+  margin-top: 20px;
 }
