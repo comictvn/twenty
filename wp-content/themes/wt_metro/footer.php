@@ -14,24 +14,24 @@
 
 	<footer id="footer" role="contentinfo">
 		
-		<!--<div class="footer-widgets">
+		<div class="footer-widgets">
 			
-			<?php# if ( ! dynamic_sidebar( 'sidebar-3' ) ) : ?>				
+			<?php if ( ! dynamic_sidebar( 'sidebar-3' ) ) : ?>				
 				
 				<div class="widget widget_text">
 					<h3>About us</h3>
-					<div class="textwidget">Thank you for using for buying this theme from Well Themes. If you have questions, please feel free contact.</div>
+					<!--<div class="textwidget">Thank you for using for buying this theme from Well Themes. If you have questions, please feel free contact.</div>-->
 				</div>
 				
 				<div class="widget widget_categories">
-					<h3><?php# _e( 'Popular Categories', 'wellthemes' ); ?></h3>
-					<ul><?php# wp_list_categories( array( 'orderby' => 'count', 'order' => 'DESC', 'title_li' => '', 'number' => 5 ) ); ?></ul>
+					<h3><?php _e( 'Popular Categories', 'wellthemes' ); ?></h3>
+					<ul><?php wp_list_categories( array( 'orderby' => 'count', 'order' => 'DESC', 'title_li' => '', 'number' => 5 ) ); ?></ul>
 				</div>
 				
-				<?php# the_widget('WP_Widget_Recent_Posts', 'number=5', 'before_title=<h3>&after_title=</h3>'); ?>
-				<?php# the_widget('WP_Widget_Recent_Comments', 'number=5', 'before_title=<h3>&after_title=</h3>'); ?> 
+				<?php the_widget('WP_Widget_Recent_Posts', 'number=5', 'before_title=<h3>&after_title=</h3>'); ?>
+				<?php the_widget('WP_Widget_Recent_Comments', 'number=5', 'before_title=<h3>&after_title=</h3>'); ?> 
 			
-			<?php# endif; // end footer widget area ?>	
+			<?php endif; // end footer widget area ?>	
 		
 		</div><!-- /footer widgets -->
 		
