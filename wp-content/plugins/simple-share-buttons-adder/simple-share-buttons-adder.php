@@ -713,12 +713,25 @@ GNU General Public License for more details.
 			}
 		}
 		
+		$htmlContent .= '<div class="entry-social">			
+							<span class="es fb">
+								<div class="fb-like" data-share="false" data-layout="box_count" data-width="100" data-show-faces="false"></div>
+							</span>
+							<span class="es twitter">
+								<a href="http://twitter.com/share" class="twitter-share-button"
+									data-count="vertical">Tweet
+								</a>
+							</span>
+							<span class="es gplus">	
+								<div class="g-plusone" data-size="tall"></div>
+							</span>
+						</div>';
 		// return content and share buttons
 		return $htmlContent;
 	}
 
 	// add share buttons to content and/or excerpts
-	add_filter( 'the_content', 'show_share_buttons');	
+	add_filter( 'the_content', 'show_share_buttons', 100);	
 	//add_filter( 'the_tags', 'show_share_buttons');	
 	add_filter( 'the_excerpt', 'show_share_buttons');
 

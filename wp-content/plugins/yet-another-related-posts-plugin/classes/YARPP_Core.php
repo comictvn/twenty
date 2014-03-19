@@ -48,7 +48,7 @@ class YARPP {
 		add_action('transition_post_status', array($this->cache, 'transition_post_status'), 10, 3);
 
 		/* Automatic display hooks: */
-		add_filter('the_content',        array($this, 'the_content'), 1200);
+		add_filter('the_content',        array($this, 'the_content'), 50);
 		add_filter('the_content_feed',   array($this, 'the_content_feed'), 600);
 		add_filter('the_excerpt_rss',    array($this, 'the_excerpt_rss' ), 600);
 		add_action('wp_enqueue_scripts', array($this, 'maybe_enqueue_thumbnails'));

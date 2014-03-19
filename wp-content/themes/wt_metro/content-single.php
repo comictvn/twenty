@@ -87,19 +87,6 @@
 	
 	<div class="entry-content">	
 		<?php the_content(); ?>
-		<div class="entry-social">			
-			<span class="es fb">
-				<div class="fb-like" data-share="false" data-layout="box_count" data-width="100" data-show-faces="false"></div>
-			</span>
-			<span class="es twitter">
-				<a href="http://twitter.com/share" class="twitter-share-button"
-					data-count="vertical">Tweet
-				</a>
-			</span>
-			<span class="es gplus">	
-				<div class="g-plusone" data-size="tall"></div>
-			</span>
-		</div>
 		<?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'wellthemes' ) . '</span>', 'after' => '</div>' ) ); ?>
 	</div><!-- /entry-content -->
 
