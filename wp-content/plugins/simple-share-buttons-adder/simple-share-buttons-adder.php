@@ -731,7 +731,7 @@ GNU General Public License for more details.
 	}
 
 	// add share buttons to content and/or excerpts
-	add_filter( 'the_content', 'show_share_buttons', 100);	
+	add_filter( 'the_content', 'show_share_buttons', 50);	
 	//add_filter( 'the_tags', 'show_share_buttons');	
 	add_filter( 'the_excerpt', 'show_share_buttons');
 
