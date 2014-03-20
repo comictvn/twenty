@@ -2661,10 +2661,10 @@ ul.sp-list li{
 	font-family: Tahoma;
 }
 
-#footer .widget{
-	width: 287px;
-	float: left;
-	margin-left: 30px;
+#footer .widget {
+  float: left;
+  margin-left: 20px;
+  width: 277px;
 }
 
 #footer .widget:first-child{
