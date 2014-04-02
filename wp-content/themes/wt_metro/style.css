@@ -3561,3 +3561,46 @@ ul.sp-list li{
 .yarpp-related {
   margin-top: 20px;
 }
+
+/*Stardibi Widget------------------------------*/
+
+#stardibi-startup-list .widget_posts {
+  margin-bottom: 10px;
+}
+
+#stardibi-startup-list .item-post {
+  overflow: hidden;
+}
+
+.slogo {
+  float: left;
+  height: 64px;
+  margin-right: 10px;
+  width: 64px;
+}
+
+.sinfo {
+  overflow: hidden;
+}
+
+.btn-cta {
+  -moz-box-sizing: border-box;
+  background-color: #428BCA;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  color: #FFFFFF !important;
+  display: inline-block;
+  font-family: RobotoCondensed;
+  font-size: 20px;
+  margin-bottom: 0;
+  padding: 8px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.3s ease-out 0s;
+  width: 100%;
+}
+
+.btn-cta:hover {
+  background-color: #1074B8;
+  color: #FFFFFF;
+}
