@@ -3615,6 +3615,11 @@ ul.sp-list li{
   padding: 15px;
 }
 
+#stardibi-startup-info .slogo {
+  height: 96px;
+  width: 96px;
+}
+
 #stardibi-startup-info .startup-info {
   overflow: hidden;
 }
