@@ -3605,3 +3605,31 @@ ul.sp-list li{
   background-color: #1074B8;
   color: #FFFFFF;
 }
+
+
+#stardibi-startup-info {
+  background-color: #F9F9F9;
+  border: 1px solid #C9C9C9;
+  margin: 0 0 20px;
+  overflow: hidden;
+  padding: 15px;
+}
+
+#stardibi-startup-info .startup-info {
+  overflow: hidden;
+}
+
+#stardibi-startup-info .btn-cta {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  color: #1074B8 !important;
+  float: right;
+  font-size: 18px;
+  overflow: hidden;
+  padding: 5px;
+  text-transform: inherit;
+  width: auto;
+}
+
+#stardibi-startup-info .btn-cta:hover {
+  color: #F57F26 !important;
+}
