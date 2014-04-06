@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
 Plugin Name: Simple Share Buttons Adder
 Plugin URI: http://www.simplesharebuttons.com
@@ -715,8 +715,9 @@ GNU General Public License for more details.
 		
 		$htmlContent .= '<script>
 							jQuery(document).ready(function(){
-							var sk = jQuery("#stardibi-startup-info").attr("secret-key");
-							var url = "http://www.stardibi.com/integrate/getStartupInfo?client_key=77Qw163yk3yu7BnrWXA863orAuQ3It8J25343264v2e22687h8dG174M65BxeQOz&api_key=sExBxcxuWSwhZynblvmsOPCvZceXzFKKFFUEtt4YNqXKSDfLltCOhsnpAEgf2PUP&secret_key=" + sk;
+							var skey = jQuery("#stardibi-startup-info").attr("secret-key");
+							var stext = jQuery("#stardibi-startup-info").attr("show-text");
+							var url = "http://www.stardibi.com/integrate/getStartupInfo?client_key=77Qw163yk3yu7BnrWXA863orAuQ3It8J25343264v2e22687h8dG174M65BxeQOz&api_key=sExBxcxuWSwhZynblvmsOPCvZceXzFKKFFUEtt4YNqXKSDfLltCOhsnpAEgf2PUP&secret_key=" + skey;
 
 								jQuery.get(url, function(data){
 									var html = "";
@@ -732,7 +733,7 @@ GNU General Public License for more details.
 												html += "</div>";
 											html += "</div>";
 										html += "</div>";
-									html += "<a class=\"btn-cta\" href=\"http://www.stardibi.com/startups\" target=\"_blank\">View other startups</a>";
+									html += "<a class=\"btn-cta\" href=\"http://www.stardibi.com/startups\" target=\"_blank\">" + stext + "</a>";
 									jQuery("#stardibi-startup-info").html(html);
 								},"jsonp");
 							});
