@@ -714,11 +714,11 @@ GNU General Public License for more details.
 		}
 		
 		$htmlContent .= '<script>
-						jQuery(document).ready(function(){
-							var skey = jQuery("#stardibi-startup-info").attr("secret-key");
+							jQuery(document).ready(function(){
+							var startup = jQuery("#stardibi-startup-info").attr("startup");
 							var stext = jQuery("#stardibi-startup-info").attr("show-text");
-							if (skey) {
-								var url = "http://www.stardibi.com/integrate/getStartupInfo?client_key=77Qw163yk3yu7BnrWXA863orAuQ3It8J25343264v2e22687h8dG174M65BxeQOz&api_key=sExBxcxuWSwhZynblvmsOPCvZceXzFKKFFUEtt4YNqXKSDfLltCOhsnpAEgf2PUP&secret_key=" + skey;
+							if (startup) {
+								var url = "http://www.stardibi.com/integrate/getStartupInfo?client_key=77Qw163yk3yu7BnrWXA863orAuQ3It8J25343264v2e22687h8dG174M65BxeQOz&api_key=sExBxcxuWSwhZynblvmsOPCvZceXzFKKFFUEtt4YNqXKSDfLltCOhsnpAEgf2PUP&startup=" + startup;
 
 									jQuery.get(url, function(data){
 										var html = "";
@@ -738,7 +738,7 @@ GNU General Public License for more details.
 										jQuery("#stardibi-startup-info").html(html);
 									},"jsonp");
 							}
-						});
+							});
 						</script>';
 		
 		$htmlContent .= '<div class="entry-social">			
