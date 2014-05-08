@@ -52,7 +52,7 @@
 		
 		<?php } //endif; ?>
 		
-		<?php //add social buttons
+		<?/*php //add social buttons
 		if ( wt_get_option( 'wt_show_page_social' ) == 1 ) { ?>
 		
 		<div class="entry-social">
@@ -96,7 +96,7 @@
 	  
 		</div><!-- /entry-social -->
 		
-		<?php } ?>
+		<?php } */?>
 		
 	</footer><!-- /entry-footer -->
 	<?php if ( wt_get_option( 'wt_show_page_comments' ) == 1 ) { ?>
