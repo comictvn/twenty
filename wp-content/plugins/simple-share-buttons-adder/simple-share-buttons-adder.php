@@ -714,7 +714,7 @@ GNU General Public License for more details.
 		}
 		
 		$htmlContent .= '<script>
-							jQuery(document).ready(function(){
+							//jQuery(document).ready(function(){
 								var startuplist = jQuery(".stardibi-startup-info");
 								if (startuplist) {
 									$(".stardibi-startup-info").each(function() {
@@ -743,7 +743,7 @@ GNU General Public License for more details.
 										},"jsonp");
 									});
 								}
-							});
+							//});
 						</script>';
 		
 		$htmlContent .= '<div class="entry-social">			
