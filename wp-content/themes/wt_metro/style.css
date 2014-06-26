@@ -2685,6 +2685,11 @@ ul.sp-list li{
 		width: 650px;
 	}
 
+	.event-calendar {
+	  height: 500px;
+	  width: 650px;
+	}
+
 	#wellthemes_facebook_widget-2 > iframe {
 		width: 270px !important;
 		/* width: 267px !important; */
@@ -2789,6 +2794,11 @@ ul.sp-list li{
 		width: 640px;
 	}
 
+	.event-calendar {
+	  height: 492px;
+	  width: 640px;
+	}
+	
 	#wellthemes_facebook_widget-2 > iframe {
 		width: 640px !important;
 	}
@@ -3044,6 +3054,11 @@ ul.sp-list li{
 		
 	#content{
 		width: 460px;
+	}
+	
+	.event-calendar {
+	  height: 354px;
+	  width: 460px;
 	}
 	
 	.stardibi {
@@ -3323,6 +3338,11 @@ ul.sp-list li{
 	#content{
 		width: 270px;
 		margin-right: 0;
+	}
+	
+	.event-calendar {
+	  height: 208px;
+	  width: 270px;
 	}
 	
 	.stardibi {
@@ -3637,4 +3657,9 @@ ul.sp-list li{
 
 #stardibi-startup-info .btn-cta:hover {
   color: #F57F26 !important;
+}
+
+.event-calendar {
+  height: 600px;
+  width: 800px;
 }
