@@ -715,8 +715,8 @@ GNU General Public License for more details.
 		
 		$htmlContent .= '<script>
 							jQuery(document).ready(function(){
-							var startup = jQuery("#stardibi-startup-info").attr("startup");
-							var stext = jQuery("#stardibi-startup-info").attr("show-text");
+							var startup = jQuery(".stardibi-startup-info").attr("startup");
+							var stext = jQuery(".stardibi-startup-info").attr("show-text");
 							if (startup) {
 								var url = "http://www.stardibi.com/integrate/getStartupInfo?client_key=77Qw163yk3yu7BnrWXA863orAuQ3It8J25343264v2e22687h8dG174M65BxeQOz&api_key=sExBxcxuWSwhZynblvmsOPCvZceXzFKKFFUEtt4YNqXKSDfLltCOhsnpAEgf2PUP&startup=" + startup;
 
@@ -735,7 +735,7 @@ GNU General Public License for more details.
 												html += "</div>";
 											html += "</div>";
 										html += "<a class=\"btn-cta\" href=\"http://www.stardibi.com/startups\" target=\"_blank\">" + stext + "</a>";
-										jQuery("#stardibi-startup-info").html(html);
+										jQuery(".stardibi-startup-info").html(html);
 									},"jsonp");
 							}
 							});

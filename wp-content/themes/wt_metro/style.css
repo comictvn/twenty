@@ -3627,7 +3627,13 @@ ul.sp-list li{
 }
 
 
-#stardibi-startup-info {
+.event-calendar {
+  height: 600px;
+  width: 800px;
+}
+
+/* Stardibi */
+.stardibi-startup-info {
   background-color: #F9F9F9;
   border: 1px solid #C9C9C9;
   margin: 0 0 20px;
@@ -3635,16 +3641,16 @@ ul.sp-list li{
   padding: 15px;
 }
 
-#stardibi-startup-info .slogo {
+.stardibi-startup-info .slogo {
   height: 96px;
   width: 96px;
 }
 
-#stardibi-startup-info .startup-info {
+.stardibi-startup-info .startup-info {
   overflow: hidden;
 }
 
-#stardibi-startup-info .btn-cta {
+.stardibi-startup-info .btn-cta {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
   color: #1074B8 !important;
   float: right;
@@ -3655,11 +3661,6 @@ ul.sp-list li{
   width: auto;
 }
 
-#stardibi-startup-info .btn-cta:hover {
+.stardibi-startup-info .btn-cta:hover {
   color: #F57F26 !important;
-}
-
-.event-calendar {
-  height: 600px;
-  width: 800px;
 }
