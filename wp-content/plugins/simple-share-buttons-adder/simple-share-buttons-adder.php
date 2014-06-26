@@ -718,7 +718,7 @@ GNU General Public License for more details.
 								var startuplist = jQuery(".stardibi-startup-info");
 								if (startuplist) {
 									$(".stardibi-startup-info").each(function() {
-										var startupdiv = $(this);
+										var startupdiv = jQuery(this);
 										var startup = startupdiv.attr("startup");
 										var stext = startupdiv.attr("show-text");
 				
