@@ -715,29 +715,34 @@ GNU General Public License for more details.
 		
 		$htmlContent .= '<script>
 							jQuery(document).ready(function(){
-							var startup = jQuery(".stardibi-startup-info").attr("startup");
-							var stext = jQuery(".stardibi-startup-info").attr("show-text");
-							if (startup) {
-								var url = "http://www.stardibi.com/integrate/getStartupInfo?client_key=77Qw163yk3yu7BnrWXA863orAuQ3It8J25343264v2e22687h8dG174M65BxeQOz&api_key=sExBxcxuWSwhZynblvmsOPCvZceXzFKKFFUEtt4YNqXKSDfLltCOhsnpAEgf2PUP&startup=" + startup;
+								var startuplist = jQuery(".stardibi-startup-info");
+								if (startuplist) {
+									$(".stardibi-startup-info").each(function() {
+										var startupdiv = $(this);
+										var startup = startupdiv.attr("startup");
+										var stext = startupdiv.attr("show-text");
+				
+										var url = "http://www.stardibi.com/integrate/getStartupInfo?client_key=77Qw163yk3yu7BnrWXA863orAuQ3It8J25343264v2e22687h8dG174M65BxeQOz&api_key=sExBxcxuWSwhZynblvmsOPCvZceXzFKKFFUEtt4YNqXKSDfLltCOhsnpAEgf2PUP&startup=" + startup;
 
-									jQuery.get(url, function(data){
-										var html = "";
-											var entry = data;
-											html += "<div class=\"startup-info\">";
-												html += "<a href=\"http://www.stardibi.com" + entry.link + "\"><img class=\"slogo\" src=\"" + entry.logo + "\" alt=\"" + entry.name + "\" title=\"" + entry.name + "\"></a>";
-												html += "<div class=\"sinfo\">";
-													html += "<h3><a href=\"http://www.stardibi.com" + entry.link + "\" title=\"" + entry.name + "\">" + entry.name + "</a></h3>";
-													html += "<div class=\"entry-meta\">";
-														html += entry.headline + "<br/>";
-														html += "Market: " + entry.category + "<br/>";
-														html += "Founded: " + entry.founded;
+										jQuery.get(url, function(data){
+											var html = "";
+												var entry = data;
+												html += "<div class=\"startup-info\">";
+													html += "<a href=\"http://www.stardibi.com" + entry.link + "\"><img class=\"slogo\" src=\"" + entry.logo + "\" alt=\"" + entry.name + "\" title=\"" + entry.name + "\"></a>";
+													html += "<div class=\"sinfo\">";
+														html += "<h3><a href=\"http://www.stardibi.com" + entry.link + "\" title=\"" + entry.name + "\">" + entry.name + "</a></h3>";
+														html += "<div class=\"entry-meta\">";
+															html += entry.headline + "<br/>";
+															html += "Market: " + entry.category + "<br/>";
+															html += "Founded: " + entry.founded;
+														html += "</div>";
 													html += "</div>";
 												html += "</div>";
-											html += "</div>";
-										html += "<a class=\"btn-cta\" href=\"http://www.stardibi.com/startups\" target=\"_blank\">" + stext + "</a>";
-										jQuery(".stardibi-startup-info").html(html);
-									},"jsonp");
-							}
+											html += "<a class=\"btn-cta\" href=\"http://www.stardibi.com/startups\" target=\"_blank\">" + stext + "</a>";
+											startupdiv.html(html);
+										},"jsonp");
+									});
+								}
 							});
 						</script>';
 		
